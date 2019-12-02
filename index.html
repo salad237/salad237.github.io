@@ -11820,29 +11820,29 @@ div#notebook {
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <h2 id="Methodology">Methodology<a class="anchor-link" href="#Methodology">&#182;</a></h2><p>In this study, we will follow the analysis approach:</p>
-<ol>
+<ul>
 <li>Data collection<ul>
 <li>Retrieve the list of MRT station in Singapore</li>
 <li>Using Foursquare API: retrieve the names, categories, latitude and longitude of top 100 venues within 500 meters radius from each MRT station</li>
 </ul>
 </li>
-</ol>
-<ol>
+</ul>
+<ul>
 <li>Data Processing<ul>
 <li>Check the numbers of unique categories from these venues</li>
 <li>Group the venues by MRT stations and taking the mean on the frequency of visits of each venue category.</li>
 </ul>
 </li>
-</ol>
-<ol>
+</ul>
+<ul>
 <li>Clustering with K-means</li>
-</ol>
-<ol>
+</ul>
+<ul>
 <li>Visualizing the clustering results </li>
-</ol>
-<ol>
+</ul>
+<ul>
 <li>Examining the characteristics of each cluster to identify the most potential cluster</li>
-</ol>
+</ul>
 
 </div>
 </div>
@@ -16077,14 +16077,6 @@ These MRT stations should be near to the residential area.</p>
 <h4 id="Cluster-2:-Tourist-area">Cluster 2: Tourist area<a class="anchor-link" href="#Cluster-2:-Tourist-area">&#182;</a></h4><p>The top 5 most frequent venues in this cluster are Indian restaurant, Vegetarian restaurant, Cafe, Hotel, Chinese restaurant. These MRT stations should be near to tourist areas.</p>
 <h4 id="Cluster-4:-Tourist-area">Cluster 4: Tourist area<a class="anchor-link" href="#Cluster-4:-Tourist-area">&#182;</a></h4><p>The top 5 most frequent venues in this cluster are Cafe, Japanese restaurant, Coffee shop, Chinese restaurant, Hotel. These MRT stations should be near to tourist areas.</p>
 <h4 id="Cluster-3:-Restaurants">Cluster 3: Restaurants<a class="anchor-link" href="#Cluster-3:-Restaurants">&#182;</a></h4><p>The top 5 most frequent venues in this cluster are Chinese Restaurant, Coffee Shop, Food Court, Noodle House, Asian Restaurant. These are the MRT stations near to the restaurants.</p>
-
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
 <p>In conclustion, Cluster 1 seems to have venues where most local residents frequently visit. Hence, it should be the segment with potential for the business owners to open the Kaya toast outlets.</p>
 <p>This segment consists 21 MRT stations (shortlisted from the initial list of total 187 MRT stations in Singapore).</p>
 
